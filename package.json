@@ -1,0 +1,25 @@
+{
+  "name": "react-trycatch",
+  "version": "0.0.1",
+  "description": "High ordered component with React 16 'ErrorBoundary'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahribori/react-trycatch.git"
+  },
+  "keywords": [
+    "trycatch",
+    "react",
+    "error",
+    "catch"
+  ],
+  "author": "Ahribori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahribori/react-trycatch/issues"
+  },
+  "homepage": "https://github.com/ahribori/react-trycatch#readme"
+}
