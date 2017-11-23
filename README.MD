@@ -1,5 +1,10 @@
 # react-trycatch
+[![npm](https://img.shields.io/npm/v/react-trycatch.svg)](https://www.npmjs.com/package/react-trycatch)
+[![Travis branch](https://img.shields.io/travis/ahribori/react-trycatch/master.svg)](https://travis-ci.org/ahribori/react-trycatch)
+[![npm](https://img.shields.io/npm/l/react-trycatch.svg)]()
+
 Implement React v16 ErrorBoundary with HOC pattern
+
 ## Installation
 
 ```
