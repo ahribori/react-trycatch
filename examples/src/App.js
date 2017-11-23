@@ -10,9 +10,4 @@ class App extends React.Component {
     }
 }
 
-export default TryCatch(App, {
-    // replacement: <div>Error...T.T</div>,
-    // onError: (error, info) => {
-    //     console.log(error, info)
-    // }
-});
+export default TryCatch(App);
