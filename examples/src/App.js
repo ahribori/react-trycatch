@@ -10,4 +10,4 @@ class App extends React.Component {
     }
 }
 
-export default TryCatch(App);
+export default TryCatch()(App);
