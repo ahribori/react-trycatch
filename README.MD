@@ -15,6 +15,7 @@ npm install --save react-trycatch
 ## Usage
 
 ### 1. Default Usage
+
 ```jsx
 import React from 'react';
 import TryCatch from 'react-trycatch';
@@ -29,10 +30,11 @@ class MyComponent extends React.Component {
     }
 }
 
-export default TryCatch(MyComponent);
+export default TryCatch()(MyComponent);
 ```
 
 ### 2. With Options
+
 ```jsx
 import React from 'react';
 import TryCatch from 'react-trycatch';
@@ -47,10 +49,10 @@ class MyComponent extends React.Component {
     }
 }
 
-export default TryCatch(MyComponent, {
+export default TryCatch({
     replacement: (<div>Replacement on error</div>),
     onError: (error, info) => {
         // catch
     }
-});
+})(MyComponent);
 ```
