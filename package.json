@@ -1,6 +1,6 @@
 {
 	"name": "react-trycatch",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "High ordered component with React 16 'ErrorBoundary'",
 	"main": "./build/index.js",
 	"scripts": {
